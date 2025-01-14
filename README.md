@@ -1,0 +1,3 @@
+This repository demonstrates a common JavaScript bug involving loose equality (==) with null values in function arguments.  The bug arises from the fact that loose equality does not strictly check for type, which can lead to unexpected results.
+
+The `bug.js` file contains the buggy code, while `bugSolution.js` demonstrates a corrected version using strict equality (===).  The README details the problem and its solution.
